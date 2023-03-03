@@ -219,9 +219,6 @@ if(isset($_GET['effacerTout'])) {
         <h2>Nous joindre</h2>
         <h3>Ballons et raquettes de sport</h3>
         <p>
-            Mont-Laurier (Québec), Canada J9L 3B7<br/>
-            Téléphone&#160;: (438) 501-XXXX<br/>
-            Courriel&#160;: <a href="mailto:info@ballons-raquettes-sport.ca">info@ballons-raquettes-sport.ca</a><br/>
             &#169; Tous droits réservés 2022, Ballons et raquettes de sport
         </p>  
             
