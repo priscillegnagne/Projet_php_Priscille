@@ -228,13 +228,3 @@ if(isset($_GET['effacerTout'])) {
     </footer>
 </body>
 </html>
-
-<!-- Reference des images licence creative commons :
-ballon soccer : https://pixabay.com/fr/illustrations/classique-ballon-de-soccer-balle-5368512/
-ballon basket : https://commons.wikimedia.org/wiki/File:Basketball_(Ball).jpg
-equipement fitness : https://pxhere.com/fr/photo/1173785
-ballon handball : https://commons.wikimedia.org/wiki/File:Handball_the_ball.jpg
-raquette et balle tennis : https://www.piqsels.com/fr/public-domain-photo-jtytm
-raquette et balle badminton : https://www.piqsels.com/fr/public-domain-photo-zkdqs
-raquette et balle tennis de table : https://pixabay.com/fr/photos/tennis-de-table-balle-de-ping-pong-4046303/
-image de fond d ecran : https://pixabay.com/fr/photos/terrain-de-sport-stade-carri%C3%A8re-668615/ -->
