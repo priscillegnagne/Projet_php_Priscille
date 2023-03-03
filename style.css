@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Montserrat:wght@100;400;600;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font:400 100%/1.5 Montserrat,Helvetica,Arial,sans-serif;
+    color: azure;
+}
+
+header {
+    padding: 0%;
+}
+/*h1,h2,h3,h4 et p*/
+h1{
+    color: rgba(92, 202, 217, 0.89);
+}
+h2{
+    color: aliceblue;
+    font-weight: 600;
+}
+h3{
+    color: aqua;
+    font-weight: 400;
+}
+h4{
+    color: azure;
+    font-weight: 600;
+}
+p{
+    color: rgb(46, 15, 15);
+}
+
+/*navigation*/
+nav a:first-child{
+    color:rgb(245, 241, 241);
+    font-weight: 600;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+nav ul li a{
+    color:rgb(245, 241, 241);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    background: rgba(43, 107, 190, 0.26);
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.063rem solid rgba(255,255,255,.1);
+    transition: all .3s ease;
+}
+/*commande*/
+a{
+    color: rgb(186, 214, 239);
+}
+.affichage{
+    display: inline-flex;
+    color: rgba(205, 232, 237, 0.922);
+    font-weight: 600;
+    width: fit-content;
+    border: solid rgb(58, 194, 225);
+}
+.af{
+    display: inline-flex;
+}
+.case{
+    width: 15rem;
+}
+
+@media screen and (min-width:768px){
+    ul{
+        display: flex;
+    }
+    menu>ul>li{
+        flex:1;
+    }
+    ul>li>a{
+        padding: 0 2%;
+        font-size: 80%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul li ul{
+        display: none;
+    }
+    #ballons{
+        display: inline-flex;
+        padding: 1rem;
+    }
+    #raquettes{
+        display: inline-flex;
+        padding: 1rem;
+    }
+    
+}
+
+/*image de fond*/
+html{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(110, 118, 183, 0.574) 100%),
+    url(images/sports-ground.jpg) no-repeat;
+    background-size: cover;  
+}
+
+/*pied de page*/
+#pied-page{
+    background-color:rgba(128, 235, 201, 0.47);
+}
+#pied-page a{
+    color: rgb(127, 215, 244);
+}
